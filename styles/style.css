@@ -81,5 +81,86 @@ nav .nav_links a {
     /* enter uppercase here */
 }
 
+/* MAIN CONTENT SECTION */
+
+.panels {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.panel {
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 5rem;
+    height: 8rem;
+    margin: 3rem;
+    text-align: center;
+}
+
+.panel img {
+    
+    width: 5rem;
+    margin-bottom: 1rem;
+}
 
 
+.panel img:nth-child(1) {
+    width: 3.5rem;
+}
+
+
+
+
+.about {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about .about_panel {
+    width: 35%;
+}
+
+h3 {
+    font-weight: bold;
+    /* Need to uppercase */
+    color: white;
+    background-color: cadetblue;
+    width: 10rem;
+    padding: 0.5rem 1.25rem;
+}
+
+.about_panel p {
+    padding-top: 1rem;
+}
+
+.about .about_panel:nth-child(1) {
+    padding-right: 2.5%;
+}
+
+.about .about_panel:nth-child(2) {
+    padding-left: 2.5%;
+}
+
+
+/*   FOOTER SECTION  */
+
+footer {
+    background-color: azure;
+}
+
+.foot_content {
+    display: flex;
+    
+    padding: 4rem;
+}
+
+.foot_content img {
+    height: 1.5rem;
+    padding-right: 1rem;
+}
